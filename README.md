@@ -10,9 +10,9 @@ require_once("app/security.php");
 require_once("app/data-validation.php");
 require_once("app/crud.php");
 
-$validation = new HashDataValidsation();
-$security = new HashSecurity();
-$hashcrud = new hashCrud;
+$validation = new DataValidsation();
+$security = new Security();
+$crud = new Crud;
 
 $query  = "SELECT id FROM Users WHERE email = ?";
 $types = "s";
