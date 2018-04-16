@@ -2,7 +2,7 @@
 
 # how to use.
 
-'''php
+```php
 <?php
 require_once("app/header.php");
 require_once("app/database.php");
@@ -20,4 +20,4 @@ $values = array("email" => $email);
 $check_id = $crud -> GetData($query, $types, $values);
 
 ?>
-'''
+```
